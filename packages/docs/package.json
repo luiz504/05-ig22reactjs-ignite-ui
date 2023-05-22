@@ -12,9 +12,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@ignite-ui/eslint-config": "*",
     "@ignite-ui/react": "*",
     "@ignite-ui/tokens": "*",
-    "@ignite-ui/eslint-config": "*"
+    "@ignite-ui/ts-config": "*",
+    "polished": "^4.2.2"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.12",
