@@ -37,4 +37,5 @@ export const {
     radii,
     space,
   },
+  prefix: 'ig-ui',
 })
