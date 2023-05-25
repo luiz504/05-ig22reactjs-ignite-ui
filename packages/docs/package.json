@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "storybook dev -p 6006",
-    "build": "storybook build"
+    "build": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +21,7 @@
     "polished": "^4.2.2"
   },
   "devDependencies": {
+    "@storybook/addon-a11y": "^7.0.17",
     "@storybook/addon-docs": "^7.0.15",
     "@storybook/addon-essentials": "^7.0.12",
     "@storybook/addon-interactions": "^7.0.12",
@@ -27,6 +29,7 @@
     "@storybook/blocks": "^7.0.12",
     "@storybook/react": "^7.0.12",
     "@storybook/react-vite": "^7.0.12",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "^0.0.14-next.2",
     "@vitejs/plugin-react": "^4.0.0",
     "install": "^0.13.0",
