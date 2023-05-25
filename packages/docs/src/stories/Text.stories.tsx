@@ -17,5 +17,6 @@ export const CustomTag: StoryObj<TextProps> = {
   args: {
     children: 'Strong Text',
     as: 'strong',
+    size: '2xl',
   },
 }
