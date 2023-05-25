@@ -7,6 +7,17 @@ export default {
   tags: ['autodocs'],
   args: {
     children: 'Amazing Headings',
+    size: 'md',
+  },
+  argTypes: {
+    size: {
+      options: ['sm', 'md', 'lg', '2xl', '4xl', '5xl', '6xl'],
+      control: 'inline-radio',
+      defaultValue: 'md',
+      table: {
+        defaultValue: { summary: 'md' },
+      },
+    },
   },
 } as Meta<HeadingProps>
 

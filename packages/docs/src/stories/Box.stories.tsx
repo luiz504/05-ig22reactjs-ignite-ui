@@ -8,6 +8,17 @@ export default {
   args: {
     children: <Text> View Element Box</Text>,
   },
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+      description: 'Receives any Node',
+      table: {
+        defaultValue: { summary: 'undefined' },
+      },
+    },
+  },
 } as Meta<BoxProps>
 
 export const Primary: StoryObj<BoxProps> = {}

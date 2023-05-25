@@ -9,6 +9,17 @@ export default {
     src: 'https://github.com/luiz504.png',
     alt: 'Luiz504',
   },
+  argTypes: {
+    src: {
+      description: 'Image URL',
+      control: {
+        type: 'text',
+      },
+    },
+    alt: {
+      description: 'Alternative text',
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
