@@ -20,6 +20,9 @@ jobs:
       - run: npm ci
 
       - run: npm run build
+      
+      - name: Debug Git Environment
+        run: git config --list
 
       - name: Deploy storybook
         working-directory: ./packages/docs
