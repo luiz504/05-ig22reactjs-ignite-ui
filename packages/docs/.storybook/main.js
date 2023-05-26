@@ -22,6 +22,7 @@ const config = {
     if (configType === "PRODUCTION") {
       config.base = "/05-ig22reactjs-ignite-ui";
     }
+    return config;
   },
 };
 
