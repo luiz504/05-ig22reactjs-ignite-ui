@@ -18,6 +18,11 @@ const config = {
   docs: {
     autodocs: "tag",
   },
+  viteFinal: (config, { configType }) => {
+    if (configType === "PRODUCTION") {
+      config.base = "/05-ig22reactjs-ignite-ui";
+    }
+  },
 };
 
 export default config;
