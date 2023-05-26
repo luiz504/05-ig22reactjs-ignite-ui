@@ -15,10 +15,13 @@ const config = {
     name: "@storybook/react-vite",
     options: {},
   },
+  core: {
+    builder: "@storybook/builder-vite",
+  },
   docs: {
     autodocs: "tag",
   },
-  viteFinal: (config, { configType }) => {
+  async viteFinal(config, { configType }) {
     if (configType === "PRODUCTION") {
       config.base = "/05-ig22reactjs-ignite-ui/";
     }
