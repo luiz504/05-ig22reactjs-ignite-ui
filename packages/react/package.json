@@ -1,6 +1,6 @@
 {
-  "name": "@ignite-ui/react",
-  "version": "1.0.0",
+  "name": "@luiz504-ignite-ui/react",
+  "version": "1.0.1",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -20,9 +20,9 @@
     "phosphor-react": "^1.4.1"
   },
   "devDependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@luiz504-ignite-ui/eslint-config": "*",
+    "@luiz504-ignite-ui/tokens": "*",
+    "@luiz504-ignite-ui/ts-config": "*",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
     "react": "^18.2.0",

@@ -1,5 +1,5 @@
 {
   "extends": [
-    "@ignite-ui/eslint-config"
+    "@luiz504-ignite-ui/eslint-config"
   ]
 }
