@@ -1,5 +1,11 @@
 # @luiz504-ignite-ui/tokens
 
+## 1.0.5
+
+### Patch Changes
+
+- New font-family token Inter
+
 ## 1.0.4
 
 ### Patch Changes

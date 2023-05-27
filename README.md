@@ -1,11 +1,3 @@
-Components
+# Ignite-ui Design System monorepo
 
-- [x] Text
-- [x] Heading
-- [x] Box
-- [x] Button
-- [x] TextInput
-- [x] TextArea
-- [x] Checkbox
-- [x] Avatar
-- [x] MultiStep
+<a style="font-weight: bold" href='https://luiz504.github.io/05-ig22reactjs-ignite-ui/?path=/docs/home--docs' target='_blank'>Documentation Page</a>
