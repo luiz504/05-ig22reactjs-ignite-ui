@@ -1,5 +1,11 @@
 # @luiz504-ignite-ui/react
 
+## 1.1.0
+
+### Minor Changes
+
+- New component Tooltip
+
 ## 1.0.3
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@luiz504-ignite-ui/react",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -16,6 +16,7 @@
   "dependencies": {
     "@radix-ui/react-avatar": "^1.0.2",
     "@radix-ui/react-checkbox": "^1.0.3",
+    "@radix-ui/react-tooltip": "^1.0.6",
     "@stitches/react": "^1.2.8",
     "phosphor-react": "^1.4.1"
   },

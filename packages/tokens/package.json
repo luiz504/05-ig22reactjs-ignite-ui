@@ -1,6 +1,6 @@
 {
   "name": "@luiz504-ignite-ui/tokens",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
