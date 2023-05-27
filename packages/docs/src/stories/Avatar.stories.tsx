@@ -20,6 +20,14 @@ export default {
       description: 'Alternative text',
     },
   },
+  parameters: {
+    docs: {
+      description: {
+        component:
+          'This component was built using radix-ui/react-avatar primitives.',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}

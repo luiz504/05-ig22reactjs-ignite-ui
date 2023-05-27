@@ -11,22 +11,42 @@ export default {
     variant: 'primary',
     size: 'md',
     disabled: false,
+    onClick: () => {},
   },
   argTypes: {
     onClick: {
       action: 'click',
+      description: 'default onclick event',
+    },
+    children: {
+      description: 'ReactNode',
     },
     variant: {
-      options: ['primary', 'secondary', 'terceary'],
+      options: ['primary', 'secondary', 'tertiary'],
       control: 'inline-radio',
+      table: {
+        defaultValue: {
+          summary: 'primary',
+        },
+      },
     },
     size: {
       options: ['sm', 'md'],
       control: 'inline-radio',
+      table: {
+        defaultValue: {
+          summary: 'md',
+        },
+      },
     },
     disabled: {
       controls: {
         type: 'boolean',
+      },
+      table: {
+        defaultValue: {
+          summary: false,
+        },
       },
     },
   },
