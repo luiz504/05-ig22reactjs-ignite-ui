@@ -23,8 +23,8 @@ jobs:
 
       - run: npm run build
         env:
-          TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
-          TURBO_TEAM: ${{ vars.TURBO_TEAM }}
+          TURBO_TOKEN: Q8tDNTFPtTzFXXSmBUteSwEJ
+          TURBO_TEAM: luiz504
 
       - name: Debug Git Environment
         run: git config --list
