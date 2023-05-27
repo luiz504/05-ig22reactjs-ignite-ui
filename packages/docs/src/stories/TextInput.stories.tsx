@@ -19,18 +19,28 @@ export default {
       )
     },
   ],
+  argTypes: {
+    size: {
+      options: ['sm', 'md'],
+      control: 'inline-radio',
+      table: {
+        defaultValue: { summary: 'md' },
+      },
+    },
+  },
 } as Meta<TextInputProps>
 
 export const Primary: StoryObj<TextInputProps> = {
   args: {
     placeholder: 'Placeholder',
+    size: 'sm',
   },
 }
 
 export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'cal.com/',
-    value: 'Hello',
+    placeholder: 'your-username',
   },
 }
 
