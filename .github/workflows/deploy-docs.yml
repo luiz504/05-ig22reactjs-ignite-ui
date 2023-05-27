@@ -16,10 +16,14 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
+          cache: "npm"
+          cache-dependency-path: "**/package-lock.json"
 
       - run: npm ci
 
       - run: npm run build
+        env:
+          TURBO_TOKEN: ${{ secrets.VERCEL_CACHE_CI_TOKEN }}
 
       - name: Debug Git Environment
         run: git config --list
