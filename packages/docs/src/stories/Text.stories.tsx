@@ -44,4 +44,12 @@ export const CustomTag: StoryObj<TextProps> = {
     as: 'strong',
     size: '2xl',
   },
+  parameters: {
+    docs: {
+      description: {
+        story:
+          'Default heading is `p`, but you can change that with the prop `as`',
+      },
+    },
+  },
 }

@@ -1,5 +1,11 @@
 # @luiz504-ignite-ui/react
 
+## 1.0.3
+
+### Patch Changes
+
+- Checkbox change cursor when disabled
+
 ## 1.0.2
 
 ### Patch Changes
