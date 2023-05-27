@@ -23,7 +23,7 @@ jobs:
 
       - run: npm run build
         env:
-          TURBO_TOKEN: ${{ secrets.VERCEL_CACHE_CI_TOKEN }}
+          TURBO_TOKEN: MO6yCJaKqPzfVyA4OqExIlY9
 
       - name: Debug Git Environment
         run: git config --list
