@@ -1,5 +1,11 @@
 # @luiz504-ignite-ui/react
 
+## 1.0.4
+
+### Patch Changes
+
+- Change TextInput placeholder color to be darker than prefix
+
 ## 1.0.3
 
 ### Patch Changes
