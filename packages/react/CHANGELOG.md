@@ -1,16 +1,10 @@
 # @luiz504-ignite-ui/react
 
-## 1.2.0
+## 1.0.4
 
-### Minor Changes
+### Patch Changes
 
-- Implementation of a ToastCard Component
-
-## 1.1.0
-
-### Minor Changes
-
-- New component Tooltip
+- Change TextInput placeholder color to be darker than prefix
 
 ## 1.0.3
 

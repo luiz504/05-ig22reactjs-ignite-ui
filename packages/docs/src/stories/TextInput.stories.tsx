@@ -5,7 +5,10 @@ export default {
   title: 'Form/TextInput',
   component: TextInput,
   tags: ['autodocs'],
-  args: {},
+  args: {
+    prefix: '',
+    placeholder: '',
+  },
   decorators: [
     (Story) => {
       return (
@@ -20,6 +23,12 @@ export default {
     },
   ],
   argTypes: {
+    prefix: {
+      description: 'Prefix text input',
+    },
+    placeholder: {
+      description: 'Input text cue',
+    },
     size: {
       options: ['sm', 'md'],
       control: 'inline-radio',
@@ -32,7 +41,7 @@ export default {
 
 export const Primary: StoryObj<TextInputProps> = {
   args: {
-    placeholder: 'Placeholder',
+    placeholder: 'email',
     size: 'sm',
   },
 }
