@@ -1,5 +1,11 @@
 # @luiz504-ignite-ui/react
 
+## 1.2.0
+
+### Minor Changes
+
+- Implementation of a ToastCard Component
+
 ## 1.1.0
 
 ### Minor Changes

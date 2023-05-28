@@ -90,6 +90,10 @@ export const Button = styled('button', {
   },
 })
 
+Button.defaultProps = {
+  type: 'button',
+}
+
 export interface ButtonProps extends ComponentProps<typeof Button> {
   as?: ElementType
 }
